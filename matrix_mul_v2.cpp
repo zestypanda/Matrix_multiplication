@@ -1,5 +1,5 @@
 #include "matrix_mul.hpp"
-#define CRITICAL_SIZE 64
+#define CRITICAL_SIZE 16
 
 void multiply_step(int *A, int *B, int *C, int i1, int j1, int i2, int j2, int m, int n) {
   if (m <= CRITICAL_SIZE) { 

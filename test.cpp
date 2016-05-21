@@ -30,7 +30,7 @@ void verify(int *C, int n) {
 
 int main() {
   int *A, *B, *C;
-  int  n = 1024;
+  int  n = 2048;
   initialize(&A, &B, &C, n);
   printf("step 3\n");
   clock_t begin = clock();
